@@ -1,0 +1,81 @@
+{
+    "id":3,
+    "fname":"khalid",
+    "lname":"lamqari",
+    "email":"khalidlamqari@gmail.com",
+    "image":"images/avatar-03.png",
+    "allMessages":[
+        {
+            "from":"him",
+            "type":"text",
+            "msg":"Lorem ipsum dolor sit.",
+            "datetime":"17/04/2023",
+            "msgstate":0
+        },
+        {
+            "from":"me",
+            "type":"text",
+            "msg":"Lorem ipsum dolor sit.",
+            "datetime":"17/04/2023",
+            "msgstate":0
+        },
+        {
+            "from":"him",
+            "type":"text",
+            "msg":"Lorem ipsum dolor sit.",
+            "datetime":"17/04/2023",
+            "msgstate":0
+        },
+        {
+            "from":"me",
+            "type":"text",
+            "msg":"Lorem ipsum dolor sit.",
+            "datetime":"17/04/2023",
+            "msgstate":0
+        },
+        {
+            "from":"me",
+            "type":"image",
+            "image":"images/team-01.jpg",
+            "datetime":"17/04/2023",
+            "msgstate":0
+        },
+        {
+            "from":"him",
+            "type":"image",
+            "image":"images/team-02.jpg",
+            "datetime":"17/04/2023",
+            "msgstate":0
+        },
+        {
+            "from":"me",
+            "type":"video",
+            "video":"videos/More Plastic & URBANO - One Taste [NCS Release].mp4",
+            "datetime":"17/04/2023",
+            "msgstate":0
+        },
+        {
+            "from":"him",
+            "type":"video",
+            "video":"videos/More Plastic & URBANO - One Taste [NCS Release].mp4",
+            "datetime":"17/04/2023",
+            "msgstate":0
+        },
+        {
+            "from":"him",
+            "type":"audio",
+            "audio":"audios/fort_minor_remember_the_name_official_video_hd_mp3_78184.mp3",
+            "datetime":"17/04/2023",
+            "msgstate":0
+        },
+        {
+            "from":"me",
+            "type":"audio",
+            "audio":"audios/fort_minor_remember_the_name_official_video_hd_mp3_78184.mp3",
+            "datetime":"17/04/2023",
+            "msgstate":0
+        }
+    
+    
+    ]
+}

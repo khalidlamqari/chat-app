@@ -1,0 +1,64 @@
+[
+    {
+        "id":1,
+        "type":"contact",
+        "fname":"mohammed",
+        "lname":"ali",
+        "email":"moahammedali@gmail.com",
+        "image":"images/avatar-01.png",
+        "msgNotRead":0,
+        "lastMSG":{
+            "from":"me",
+            "type":"text",
+            "msg":"Lorem ipsum dolor sit.",
+            "datetime":"17/04/2023",
+            "msgState":-1 
+        }
+    },
+    {
+        "id":2,
+        "type":"contact",
+        "fname":"mostapha",
+        "lname":"kh",
+        "email":"mmostaphakh@gmail.com",
+        "image":"images/avatar-02.png",
+        "msgNotRead":0,
+        "lastMSG":{
+            "from":"me",
+            "type":"text",
+            "msg":"Lorem ipsum dolor sit.",
+            "datetime":"17/04/2023",
+            "msgState":1
+        }
+    },
+    {
+        "id":3,
+        "type":"contact",
+        "fname":"khalid",
+        "lname":"lamqari",
+        "email":"khalidlamqari@gmail.com",
+        "image":"images/avatar-03.png",
+        "msgNotRead":4,
+        "lastMSG":{
+            "from":"him",
+            "type":"text",
+            "msg":"Lorem ipsum dolor sit.",
+            "datetime":"17/04/2023",
+            "msgState":0
+        }
+    },
+    {
+        "id":3,
+        "type":"group",
+        "name":"kl group",
+        "image":"images/avatar-03.png",
+        "msgNotRead":4,
+        "lastMSG":{
+            "from":"him",
+            "type":"text",
+            "msg":"Lorem ipsum dolor sit.",
+            "datetime":"17/04/2023",
+            "msgState":0
+        }
+    }
+]
