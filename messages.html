@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="discussions">
+        <div class="main-menu">
+            <ul>
+                <li class="active"><a href="messages.html"><i class="fa-solid fa-comment"></i></a></li>
+                <li><a href="apples.html"><i class="fa-solid fa-phone"></i></a></li>
+                <li><a href="stories.html"><i class="fa-solid fa-bullseye"></i></a></li>
+            </ul>
+            <ul>
+                <li><a href="profile.html" target="_blank"><i class="fa-solid fa-user"></i></a></li>
+                <li><a href="setting.html"><i class="fa-solid fa-gear"></i></a></li>
+            </ul>
+        </div>
+        <div class="contacts">
+            <div class="header">
+                <div class="nav">
+                    <i class="fa-solid fa-chevron-left" id="goBack"></i>
+                    <h4>contact</h4>
+                    <ul>
+                        <!-- <li><i class="fa-regular fa-eye"></i></li> -->
+                        <li class="new-cg"><i class="fa-solid fa-ellipsis-vertical"></i>
+                            <section class="hiddenbtn"></section>
+                            <div>
+                                
+                                <ul>
+                                    <li class="filter">
+                                        <div class="opt">
+                                            <i class="fa-solid fa-sliders"></i>
+                                            <span>Filter</span>
+                                            <i class="fa-solid fa-chevron-right" id="filterArow"></i>
+                                        </div>
+                                        <menu>
+                                            <div class="opt" id="allContact">
+                                                <i class="fa-regular fa-user"></i>
+                                                <span>Contact</span>
+                                            </div>
+                                            <div class="opt" id="notRead">
+                                                <i class="fa-solid fa-comment-slash"></i>
+                                                <span>Not read</span>
+                                            </div>
+                                            <div class="opt" id="groups">
+                                                <i class="fa-solid fa-users"></i>
+                                                <span>group</span>
+                                            </div>
+                                            <!-- <div class="opt">
+                                                <i class="fa-regular fa-eye-slash"></i>
+                                                <span>Externel Contact</span>
+                                            </div> -->
+                                          
+                                        </menu>
+                                    </li>
+                                    <li class="new-contact">
+                                        <div class="opt">
+                                            <i class="fa-regular fa-user"></i>
+                                            <span>New Contact</span>
+                                            <i class="fa-solid fa-chevron-right" id="NContactArow"></i>
+                                        </div>
+                                        <menu>
+                                            <div class="new-contact-form">
+                                                <!-- <input type="text" required placeholder="first name">
+                                                <input type="text" required placeholder="last name"> -->
+                                                <input type="email" required placeholder="email">
+                                                <input type="submit" value="Add">
+                                            </div>
+                                        </menu>
+                                    </li>
+                                    <li class="new-group">
+                                        <div class="opt">
+                                            <i class="fa-solid fa-users"></i>
+                                            <span>New Group <b id="numberOfmembers"></b> </span>
+                                            <i class="fa-solid fa-chevron-right" id="NGroupArow"></i>
+                                        </div>
+                                        <menu>
+                                            <div class="group-name">
+                                                <input type="text" placeholder="Group Name">
+                                                <input type="submit" value="Create">
+                                            </div>
+                                           <div class="membersContainer">
+                                                <!-- <label class="contact">
+                                                    <img src="images/avatar-01.png" alt="">
+                                                    <h3>Mohammed Ali</h3>
+                                                    <input type="checkbox" value="">
+                                                </label>
+                                                <label class="contact">
+                                                    <img src="images/avatar-01.png" alt="">
+                                                    <h3>Mohammed Ali</h3>
+                                                    <input type="checkbox">
+                                                </label> -->
+                                           </div>
+                                           
+                                           
+
+
+                                        </menu>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                        </li>
+                    </ul>
+                </div>
+                <div class="form">
+                    <input type="text" placeholder="search" id="searchContact">
+                    <i class="fa-solid fa-magnifying-glass" id="btnSearchContact"></i>
+                </div>
+            </div>
+            <div class="boxs">
+
+
+                <div class="new">
+                    <h2>No Contacts Here</h2>
+                    <span>Add New</span>
+                </div>
+
+                <!-- <div class="box">
+                    <img src="images/avatar-01.png" alt="">
+                    <div class="desc">
+                        <div class="title">
+                            <h4>khalid lamqari</h4>
+                            <span>16/04/2023</span>
+                        </div>
+                        <div class="msg">
+                            <i class="fa-regular fa-eye"></i>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                    </div>
+                </div> -->
+ 
+            </div>
+        </div>
+        <div class="container-msg">
+            <div id="messageHeader">
+                <!-- <div class="nav">
+                    <div class="img-name">
+                        <img src="images/avatar-01.png" alt="">
+                        <h3>Mohammed ali</h3>
+                    </div>
+                    <ul>
+                        <li><i class="fa-solid fa-phone"></i></li>
+                        <li><i class="fa-solid fa-video"></i></li>
+                    </ul>
+                </div> -->
+            </div>
+            <div class="msg-area">
+              
+                <div class="no-content">
+                    <i class="fa-solid fa-comment"></i>
+                    <h2>Select Discussion</h2>
+                </div>
+
+
+            </div>
+            <div class="form" id="formForSend">
+                <label for="bndbn">
+                <i class="fa-solid fa-paperclip"></i>
+                <input type="file" id="bndbn" style="display: none;">
+                </label>
+                <input type="text" placeholder="write a message " id="getText">
+                <!-- <i class="fa-regular fa-paper-plane" id="btn__send"></i> -->
+                <div class="container_audio">
+                    <i class="fa-solid fa-trash-can" id="audio_del"></i>
+              
+                    <!-- <audio id="audioTest" src="" controls></audio> -->
+                    <!-- <i class="fa-solid fa-microphone" id="btn_audio_record2"></i> -->
+                    
+                    <span class="timeRecord">
+                        00:00
+                    </span>
+                    <ul class="start_anim_record">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <label for="" id="btn__pause__resume">
+                        <i class="fa-solid fa-pause" id="btn__pause"></i>
+                        <i class="fa-solid fa-microphone" id="btn__resume"></i>
+                    </label>
+                </div>
+                <i class="fa-solid fa-microphone" id="btn_audio_record"></i>
+                <i class="fa-regular fa-paper-plane" id="btn__send"></i>
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <script src="js/contact.js"></script>
+</body>
+</html>
+
